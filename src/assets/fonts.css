@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'AR';
+  src: url('@/assets/typography/Assistant-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'AM';
+  src: url('@/assets/typography/Assistant-Medium.ttf');
+}

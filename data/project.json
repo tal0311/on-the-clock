@@ -1,0 +1,36 @@
+[
+    {
+      "_id": "project_001",
+      "projectName": "Website Redesign",
+      "description": "Complete redesign of the company website.",
+      "startDate": 1672444800000, 
+      "endDate": 1703980800000,    
+      "managerId": "user_002",     
+      "team": ["user_001", "user_002"],  
+      "status": "active",
+      "owner": "user_001"
+    },
+    {
+      "_id": "project_002",
+      "projectName": "Mobile App Development",
+      "description": "Building the new mobile app for the product.",
+      "startDate": 1656633600000,  
+      "endDate": 1725216000000,   
+      "managerId": "user_003",     
+      "team": ["user_001", "user_003"], 
+      "status": "active",
+      "owner":"user_002"
+    },
+    {
+      "_id": "project_003",
+      "projectName": "Backend Optimization",
+      "description": "Improving the backend performance.",
+      "startDate": 1667260800000, 
+      "endDate": 1703980800000,   
+      "managerId": "user_001",    
+      "team": ["user_002", "user_003"],  
+      "status": "completed",
+      "owner":"user_003"
+    }
+  ]
+  

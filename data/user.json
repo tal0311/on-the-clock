@@ -1,0 +1,33 @@
+[
+    {
+      "_id": "user_001",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "position": "Software Engineer",
+      "department": "Engineering",
+      "employeeId": "EMP001",
+      "projects": ["project_001", "project_002"],  
+      "hireDate": 1672444800000  
+    },
+    {
+      "_id": "user_002",
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "position": "Product Manager",
+      "department": "Product",
+      "employeeId": "EMP002",
+      "projects": ["project_001", "project_003"],  
+      "hireDate": 1667174400000 
+    },
+    {
+      "_id": "user_003",
+      "name": "Bob Johnson",
+      "email": "bobjohnson@example.com",
+      "position": "UX Designer",
+      "department": "Design",
+      "employeeId": "EMP003",
+      "projects": ["project_002", "project_003"],  
+      "hireDate": 1623724800000  
+    }
+  ]
+  

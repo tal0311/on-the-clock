@@ -1,0 +1,128 @@
+[
+    {
+        "_id": "entry_001",
+        "employeeId": "user_001",
+        "date": 1726753662636,
+        "startTime": 1726753662636,
+        "endTime": 1726796862636,
+        "projectId": "project_001",
+        "totalTime": 8,
+        "notes": "Worked on project A features.",
+        "location": {
+            "lat": 37.7749,
+            "lng": -122.4194
+        }
+    },
+    {
+        "_id": "entry_002",
+        "employeeId": "user_002",
+        "date": 1726753662636,
+        "startTime": 1726750062636,
+        "endTime": 1726770062636,
+        "projectId": "project_002",
+        "totalTime": 5,
+        "notes": "Product meeting.",
+        "location": {
+            "lat": 34.0522,
+            "lng": -118.2437
+        }
+    },
+    {
+        "_id": "entry_003",
+        "employeeId": "user_003",
+        "date": 1726753662636,
+        "startTime": 1726757262636,
+        "endTime": 1726787262636,
+        "projectId": "project_003",
+        "totalTime": 6,
+        "notes": "UI design updates.",
+        "location": {
+            "lat": 40.7128,
+            "lng": -74.0060
+        }
+    },
+    {
+        "_id": "entry_004",
+        "employeeId": "user_001",
+        "date": 1726840062636,
+        "startTime": 1726840062636,
+        "endTime": 1726883262636,
+        "projectId": "project_002",
+        "totalTime": 8,
+        "notes": "Backend fixes.",
+        "location": {
+            "lat": 51.5074,
+            "lng": -0.1278
+        }
+    },
+    {
+        "_id": "entry_005",
+        "employeeId": "user_002",
+        "date": 1726840062636,
+        "startTime": 1726836462636,
+        "endTime": 1726853262636,
+        "projectId": "project_001",
+        "totalTime": 4.5,
+        "notes": "Product meetings.",
+        "location": {
+            "lat": 48.8566,
+            "lng": 2.3522
+        }
+    },
+    {
+        "_id": "entry_006",
+        "employeeId": "user_003",
+        "date": 1726843662636,
+        "startTime": 1726843662636,
+        "endTime": 1726886862636,
+        "projectId": "project_003",
+        "totalTime": 8,
+        "notes": "User interface improvements.",
+        "location": {
+            "lat": 35.6895,
+            "lng": 139.6917
+        }
+    },
+    {
+        "_id": "entry_007",
+        "employeeId": "user_001",
+        "date": 1726926462636,
+        "startTime": 1726926462636,
+        "endTime": 1726969662636,
+        "projectId": "project_001",
+        "totalTime": 7,
+        "notes": "Roadmap discussion.",
+        "location": {
+            "lat": 55.7558,
+            "lng": 37.6173
+        }
+    },
+    {
+        "_id": "entry_009",
+        "employeeId": "user_003",
+        "date": 1726930062636,
+        "startTime": 1726930062636,
+        "endTime": 1726973262636,
+        "projectId": "project_002",
+        "totalTime": 8,
+        "notes": "Creating wireframes.",
+        "location": {
+            "lat": 39.9042,
+            "lng": 116.4074
+        }
+    },
+    {
+        "_id": "entry_010",
+        "employeeId": "user_001",
+        "date": 1727016462636,
+        "startTime": 1727016462636,
+        "endTime": 1727059662636,
+        "projectId": "project_001",
+        "totalTime": 8,
+        "notes": "Testing new features.",
+        "location": {
+            "lat": 41.8781,
+            "lng": -87.6298
+        }
+    }
+]

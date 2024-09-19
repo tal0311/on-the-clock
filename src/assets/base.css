@@ -1,0 +1,121 @@
+html {
+  font-family: 'AR', sans-serif;
+  letter-spacing: 1px;
+}
+
+body {
+  height: 100vh;
+  height: 100dvh;
+  color: var(--bClr2);
+
+  margin: 0;
+  overflow-x: hidden;
+
+  &[theme='dark'] {
+    background-color: var(--bClr5);
+    color: var(--bClr2);
+  }
+  &[theme='light'] {
+    background-color: var(--bClr2);
+    color: var(--bClr5);
+  }
+
+  &.staging {
+    border: 3px solid red;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  /* background-color: transparent; */
+  outline: 1px solid black;
+}
+
+dialog {
+  background: var(--clr10);
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.primary-btn {
+  background: none;
+  border: none;
+  background-color: var(--bClr3);
+  border-radius: var(--br);
+  color: var(--bClr2);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  display: grid;
+  place-content: center;
+  /* background-image: url('@/assets/images/recipe/R-1.jpeg'); */
+}
+
+.secondary-btn {
+  font-size: 1rem;
+  border: none;
+  background-color: var(--bClr2);
+  outline: 1px solid var(--bClr3);
+  color: var(--bClr3);
+  border-radius: var(--br);
+}
+
+.error-btn {
+  border: none;
+  background-color: var(--bClr2);
+  outline: 1px solid var(--clr12);
+  color: var(--clr12);
+  padding: 0.5rem 0.8rem;
+  border-radius: var(--br);
+}
+
+.special-btn {
+  border: none;
+  background-color: var(--bClr6);
+  font-weight: 700;
+  color: var(--bClr2);
+  border: 1px solid var(--bClr2);
+  border-radius: var(--br);
+}
+
+.icon {
+  border: none;
+  background: none;
+  box-shadow: 0 0 2px 0 var(--clr7);
+  border-radius: 0.5rem;
+}
+
+.blur-bg {
+  border-radius: 0.5rem;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+.icon-svg {
+  display: grid;
+  place-content: center;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
